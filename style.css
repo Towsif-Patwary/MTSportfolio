@@ -322,9 +322,9 @@ body
     color: #fff;
     background-color: #000;
 }
-    .social-icons ul li a {
-        text-decoration: none;
-    }
+#anchorId {
+    text-decoration: none;
+}
 .social-icons ul li:hover
 {
     padding-left: 30px;
