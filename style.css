@@ -348,7 +348,7 @@ body
 
 .aboutSection {
     flex: 1;
-    max-width: 360px;
+    max-width: 40%;
     margin: 20px 10px;
     text-align: center;
     cursor: pointer;
@@ -368,7 +368,7 @@ body
 
 .resumeSection {
     flex: 1;
-    max-width: 360px;
+    max-width: 40%;
     margin: 20px 10px;
     text-align: center;
     cursor: pointer;
@@ -501,6 +501,9 @@ body
   .pricing-card{
     flex: 50%;
   }
+    .aboutSection {
+        flex: 50%;
+    }
 
     .resumeSection {
         flex: 50%;
