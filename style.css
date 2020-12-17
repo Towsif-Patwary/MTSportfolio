@@ -336,7 +336,65 @@ body
     transition: 1s;
 }
 
+/* about */
 
+.about-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: min(1600px, 100%);
+    margin: auto;
+}
+
+.aboutSection {
+    flex: 1;
+    max-width: 360px;
+    margin: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: .3s linear;
+}
+
+/* resume */
+
+.resume-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: min(1600px, 100%);
+    margin: auto;
+}
+
+.resumeSection {
+    flex: 1;
+    max-width: 360px;
+    margin: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: .3s linear;
+}
+
+/* services */
+
+.services-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: min(1600px, 100%);
+    margin: auto;
+}
+
+.servicesSection {
+    flex: 1;
+    max-width: 360px;
+    margin: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: .3s linear;
+}
 
 
 /*   pricing   */
@@ -359,6 +417,26 @@ body
   overflow: hidden;
   color: #2d2d2d;
   transition: .3s linear;
+}
+
+/* contact */
+
+.contact-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: min(1600px, 100%);
+    margin: auto;
+}
+
+.contactInfo {
+    flex: 1;
+    max-width: 360px;
+    margin: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: .3s linear;
 }
 
 .pricing-card-header{
