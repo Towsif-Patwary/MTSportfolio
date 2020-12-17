@@ -322,6 +322,10 @@ body
     color: #fff;
     background-color: #000;
 }
+    .social-icons ul li a {
+        color: inherit;
+    }
+
 #anchorId {
     text-decoration: none;
 }
