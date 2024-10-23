@@ -518,9 +518,30 @@ body
 
 
 
+/* Container for the images */
+.image-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px; /* Gap between images */
+  }
 
+  /* Image styles */
+  .image-row img {
+    width: 500px;  /* Increased width */
+    height: 300px; /* Increased height */
+    object-fit: contain; /* Ensure the entire image fits inside without being cropped */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Optional rounded corners */
+  }
 
-
+  /* Responsive behavior: when the screen width is less than 600px */
+  @media screen and (max-width: 600px) {
+    .image-row img {
+      width: 200px;  /* Adjusted width for smaller screens */
+      height: 100px; /* Adjusted height for smaller screens */
+    }
+  }
 
 
 
