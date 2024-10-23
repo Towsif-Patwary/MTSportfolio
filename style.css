@@ -3,6 +3,7 @@ body
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    font-size: 12px !important;
 }
 /* header css */
 #header
@@ -49,7 +50,7 @@ body
 .scroll-bar span
 {
     border: 2px solid #fff;
-    font-size: 10px;
+    font-size: 12px;
     border-radius: 30px;
 }
 .scroll-bar
@@ -537,15 +538,24 @@ body
 
   /* Responsive behavior: when the screen width is less than 600px */
   @media screen and (max-width: 600px) {
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+      }
     .image-row img {
       width: 200px;  /* Adjusted width for smaller screens */
       height: 100px; /* Adjusted height for smaller screens */
     }
+
   }
 
 
 
-
+  .container {
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+  }
 
 
 
