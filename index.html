@@ -1,411 +1,487 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Mohammad Towsif Patwary | Software Developer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mohammad Towsif Patwary | Senior Software Developer</title>
     <meta name="description" content="Mohammad Towsif Patwary, working in software industry since 2018. I can help you grow and support your business by providing the best software development implementations, solutions, support, professional guidelines.">
     <meta name="google-site-verification" content="PHzEEYLOHi-7OeqEc1hGQWqxnAXZ5acC8F7MSsqBW5I" />
     <meta name="keywords" content="Mohammad Towsif Patwary, Software Developer, Software Development, Software Engineer, Software solution, web, web app, web application, application, asp.net, asp.net mvc, dotnet, framework, development, software, bangladesh, towsif, towsif patwary, md towsif, towsif software, coder, programmer, online, remote job, dhaka, software company, javascript, erp, module, project, application development, point of sales, inventory, inventory management, software development course, course, asp.net core, asp.net framework, mvc, software design, web design, website, erp software.">
+    <meta name="theme-color" content="#0b0c0e">
+    <link rel="icon" href="img/logo3.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <!-- header section-->
-    <section id="header">
-        <div class="container text-center">
-            <div class="user-box">
-                <img src="img/Towsif-photo.png">
-                <h2>MOHAMMAD TOWSIF PATWARY</h2>
-                <p>SENIOR SOFTWARE DEVELOPER</p>
-                <p>Application Development • Web Development • Database Development • Custom Software Development • Cloud Application Development • Professional Dotnet Dev</p>
+
+    <div class="grain" aria-hidden="true"></div>
+    <div class="glow" aria-hidden="true"></div>
+
+    <!-- NAV -->
+    <header class="nav" id="nav">
+        <a href="#top" class="nav-brand" aria-label="Home">
+            <img src="img/logo3.png" alt="">
+            <span>Towsif<em>.</em></span>
+        </a>
+        <nav class="nav-links" id="navLinks">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#services">Services</a>
+            <a href="#work">Work</a>
+            <a href="#contact" class="nav-cta">Let's talk</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span>
+        </button>
+    </header>
+
+    <main id="top">
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="wrap hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow reveal"><span class="dot"></span> Available for projects &amp; remote roles</p>
+                    <h1 class="hero-title reveal">
+                        Mohammad Towsif<br>
+                        <em>Patwary</em>
+                    </h1>
+                    <p class="hero-role reveal">Senior Software Developer — I build <em>enterprise systems</em> that businesses run on: ERP, POS and supply-chain platforms in .NET &amp; Angular.</p>
+                    <div class="hero-actions reveal">
+                        <a href="#work" class="btn btn-primary">View my work
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                        </a>
+                        <a href="file/MohammadTowsifPatwary-Resume.pdf" download="Resume.pdf" class="btn btn-ghost">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
+                            Resume
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-photo reveal">
+                    <div class="photo-frame">
+                        <img src="img/Towsif-Patwary.jpg" alt="Portrait of Mohammad Towsif Patwary">
+                    </div>
+                    <div class="photo-tag">
+                        <span class="mono">// based in</span>
+                        Dhaka, Bangladesh
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="scroll-btn">
-            <div class="scroll-bar">
-                <a href="#about"><span></span></a>
+
+            <div class="wrap stats reveal">
+                <div class="stat"><span class="stat-num" data-count="8">8</span><span class="stat-plus">+</span><p>Years building software</p></div>
+                <div class="stat"><span class="stat-num" data-count="4">4</span><span class="stat-plus">+</span><p>Enterprise platforms shipped</p></div>
+                <div class="stat"><span class="stat-num" data-count="20">20</span><span class="stat-plus">+</span><p>Technologies in daily use</p></div>
+                <div class="stat"><span class="stat-num">2018</span><p>Writing production code since</p></div>
             </div>
-        </div>
-    </section>
-    <!-- user info -->
-    <section id="user-info">
-        <div class="nav-bar">
-            <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#"><img src="img/logo3.png"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#top">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">ABOUT ME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#resume">RESUME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">SERVICES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">CONTACT</a>
-                        </li>
+
+            <div class="marquee" aria-hidden="true">
+                <div class="marquee-track">
+                    <span>C#</span><i>✦</i><span>ASP.NET Core</span><i>✦</i><span>.NET 8</span><i>✦</i><span>Angular</span><i>✦</i><span>SQL Server</span><i>✦</i><span>Entity Framework</span><i>✦</i><span>Azure</span><i>✦</i><span>Docker</span><i>✦</i><span>Web API</span><i>✦</i><span>TypeScript</span><i>✦</i><span>Claude AI</span><i>✦</i><span>Playwright</span><i>✦</i>
+                    <span>C#</span><i>✦</i><span>ASP.NET Core</span><i>✦</i><span>.NET 8</span><i>✦</i><span>Angular</span><i>✦</i><span>SQL Server</span><i>✦</i><span>Entity Framework</span><i>✦</i><span>Azure</span><i>✦</i><span>Docker</span><i>✦</i><span>Web API</span><i>✦</i><span>TypeScript</span><i>✦</i><span>Claude AI</span><i>✦</i><span>Playwright</span><i>✦</i>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section" id="about">
+            <div class="wrap">
+                <div class="section-head reveal">
+                    <span class="section-num mono">01</span>
+                    <h2>Who I <em>am</em></h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text reveal">
+                        <p class="lead">Working in software development since 2018 — designing and building enterprise-level solutions including <strong>Point of Sales</strong> systems, <strong>ERP</strong> platforms and <strong>supply chain</strong> tools.</p>
+                        <p>On the back end I work with C#, ASP.NET Core, ASP.NET MVC, SQL Server and Entity Framework; on the front end with Angular, JavaScript and jQuery. I've designed and shipped many static and dynamic desktop and web apps.</p>
+                        <p>I'm skilled in high-level architecture, design principles, asynchronous programming, API integration, complex SQL and caching strategies that keep systems fast and scalable.</p>
+                        <p class="muted">My goal: to keep building an excellent career in a dynamic environment, taking on a strong leadership role where dedication and teamwork are valued and excellence in performance is sought.</p>
+                    </div>
+
+                    <div class="skills reveal">
+                        <div class="skill-group">
+                            <h3 class="mono">Languages</h3>
+                            <ul class="chips"><li>C#</li><li>JavaScript</li><li>TypeScript</li><li>SQL</li></ul>
+                        </div>
+                        <div class="skill-group">
+                            <h3 class="mono">Frameworks</h3>
+                            <ul class="chips"><li>ASP.NET Core</li><li>.NET 8</li><li>ASP.NET Framework</li><li>Web API</li><li>Entity Framework</li><li>Angular</li><li>React</li></ul>
+                        </div>
+                        <div class="skill-group">
+                            <h3 class="mono">Databases</h3>
+                            <ul class="chips"><li>SQL Server</li><li>Stored Procedures</li><li>MongoDB</li><li>Oracle</li></ul>
+                        </div>
+                        <div class="skill-group">
+                            <h3 class="mono">AI &amp; Automation</h3>
+                            <ul class="chips"><li>Claude AI</li><li>Agentic Automation</li><li>Playwright</li></ul>
+                        </div>
+                        <div class="skill-group">
+                            <h3 class="mono">Cloud &amp; DevOps</h3>
+                            <ul class="chips"><li>Microsoft Azure</li><li>Azure DevOps</li><li>Docker</li><li>Kubernetes</li><li>Observability</li><li>Git / SVN</li></ul>
+                        </div>
+                        <div class="skill-group">
+                            <h3 class="mono">Patterns &amp; Practice</h3>
+                            <ul class="chips"><li>Mediator</li><li>Repository</li><li>DI</li><li>Microservices</li><li>Message Queue</li><li>DDD</li><li>TDD</li><li>Agile / Scrum</li></ul>
+                        </div>
+                        <div class="skill-group">
+                            <h3 class="mono">Tools</h3>
+                            <ul class="chips"><li>Visual Studio</li><li>VS Code</li><li>Postman</li><li>Crystal Reports</li></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section class="section" id="experience">
+            <div class="wrap">
+                <div class="section-head reveal">
+                    <span class="section-num mono">02</span>
+                    <h2>Experience &amp; <em>education</em></h2>
+                </div>
+
+                <div class="timeline">
+                    <article class="tl-item reveal">
+                        <div class="tl-meta">
+                            <span class="tl-date mono">2018 — Present</span>
+                            <span class="tl-place">Synergy Interface Ltd.<br><small>Dhaka, Bangladesh</small></span>
+                        </div>
+                        <div class="tl-body">
+                            <h3>Software Developer → Senior Software Developer</h3>
+                            <ul class="tl-points">
+                                <li><b>ERP</b> — Developed and maintained ERP systems for inventory, distribution and supply chain, with complex SQL, designed APIs and asynchronous data handling.</li>
+                                <li><b>Point of Sales</b> — Designed and built a robust POS on ASP.NET 4.5, .NET 7/8, Web API, SQL Server and Angular, with Crystal Reports and an optimized backend.</li>
+                                <li><b>Web applications</b> — Built web apps for many business processes using MVC patterns and Web APIs.</li>
+                                <li><b>Architecture</b> — SOLID principles and design patterns for maintainable, scalable business logic; caching and performance tuning.</li>
+                                <li><b>APIs</b> — Secure, scalable RESTful APIs for front ends and third-party integrations.</li>
+                                <li><b>Databases</b> — Schema design, stored procedures and query optimization for high-performance apps.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="tl-item reveal">
+                        <div class="tl-meta">
+                            <span class="tl-date mono">2021</span>
+                            <span class="tl-place">Development Training</span>
+                        </div>
+                        <div class="tl-body">
+                            <h3>Blockchain Development</h3>
+                            <p>Complete blockchain development training covering blockchain and cryptocurrency.</p>
+                        </div>
+                    </article>
+
+                    <article class="tl-item reveal">
+                        <div class="tl-meta">
+                            <span class="tl-date mono">2017</span>
+                            <span class="tl-place">BRAC University</span>
+                        </div>
+                        <div class="tl-body">
+                            <h3>B.Sc. in Computer Science &amp; Engineering</h3>
+                            <p>Thesis: <a class="link" href="http://hdl.handle.net/10361/8843" target="_blank" rel="noopener">Road sign detection and recognition using mean shift and Fourier descriptors ↗</a></p>
+                            <p class="muted">Previously — St. Joseph Higher Secondary School &amp; College</p>
+                        </div>
+                    </article>
+
+                    <article class="tl-item reveal">
+                        <div class="tl-meta">
+                            <span class="tl-date mono">2017</span>
+                            <span class="tl-place">BITM<br><small>Dhaka, Bangladesh</small></span>
+                        </div>
+                        <div class="tl-body">
+                            <h3>Professional Web Development Training</h3>
+                            <p>Web application development in ASP.NET MVC and C# — design and implementation, with hands-on project work. BASIS Institute of Technology &amp; Management.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="section" id="services">
+            <div class="wrap">
+                <div class="section-head reveal">
+                    <span class="section-num mono">03</span>
+                    <h2>What I can <em>build for you</em></h2>
+                </div>
+                <p class="section-intro reveal">Comprehensive .NET and Angular solutions — dynamic, scalable, high-performance web and desktop applications tailored to your business.</p>
+
+                <div class="services-grid">
+                    <article class="card reveal">
+                        <span class="card-num mono">/01</span>
+                        <h3>Full-Stack Web Apps</h3>
+                        <p>End-to-end apps on .NET Core / .NET 8 and Angular, with secure RESTful APIs and responsive, mobile-first UI.</p>
+                    </article>
+                    <article class="card reveal">
+                        <span class="card-num mono">/02</span>
+                        <h3>ERP Solutions</h3>
+                        <p>Modular ERP platforms for inventory, supply chain and distribution — one system for many business processes.</p>
+                    </article>
+                    <article class="card reveal">
+                        <span class="card-num mono">/03</span>
+                        <h3>POS Systems</h3>
+                        <p>Custom POS with sales, purchasing, receiving and delivery modules, real-time reporting and fast, secure transactions.</p>
+                    </article>
+                    <article class="card reveal">
+                        <span class="card-num mono">/04</span>
+                        <h3>API Development</h3>
+                        <p>Secure, validated, high-performance APIs, and integrations with payment gateways, CRMs and third-party services.</p>
+                    </article>
+                    <article class="card reveal">
+                        <span class="card-num mono">/05</span>
+                        <h3>Desktop Applications</h3>
+                        <p>Feature-rich C# / .NET desktop apps with database integration, reporting and user management.</p>
+                    </article>
+                    <article class="card reveal">
+                        <span class="card-num mono">/06</span>
+                        <h3>Database Design</h3>
+                        <p>SQL Server schemas, optimized queries and stored procedures, plus caching and indexing strategies.</p>
+                    </article>
+                    <article class="card reveal">
+                        <span class="card-num mono">/07</span>
+                        <h3>Legacy Modernization</h3>
+                        <p>Move legacy .NET to .NET 8, or migrate desktop systems to modern Angular web apps — faster and more secure.</p>
+                    </article>
+                    <article class="card reveal">
+                        <span class="card-num mono">/08</span>
+                        <h3>Consulting &amp; Code Review</h3>
+                        <p>Architecture guidance and reviews grounded in SOLID, clean code and performance best practice.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- WORK -->
+        <section class="section" id="work">
+            <div class="wrap">
+                <div class="section-head reveal">
+                    <span class="section-num mono">04</span>
+                    <h2>Selected <em>work</em></h2>
+                </div>
+
+                <div class="projects">
+
+                    <article class="project reveal">
+                        <div class="project-info">
+                            <span class="project-tag mono">ERP · Inventory · Supply Chain</span>
+                            <h3>Inventory ERP</h3>
+                            <p>A large-scale ERP focused on inventory, distribution and supply-chain processes — high-level business logic, asynchronous tasks and complex SQL.</p>
+                            <ul class="chips small"><li>ASP.NET</li><li>SQL Server</li><li>Async</li></ul>
+                        </div>
+                        <div class="gallery">
+                            <button class="shot shot-main" data-caption="Inventory ERP — Sales"><img src="img/Roots1.PNG" alt="Inventory ERP sales screen" loading="lazy"></button>
+                            <button class="shot" data-caption="Inventory ERP — Invoice"><img src="img/Roots2.PNG" alt="Inventory ERP invoice screen" loading="lazy"></button>
+                            <button class="shot" data-caption="Inventory ERP — Product"><img src="img/Roots3.PNG" alt="Inventory ERP product screen" loading="lazy"></button>
+                        </div>
+                    </article>
+
+                    <article class="project reveal">
+                        <div class="project-info">
+                            <span class="project-tag mono">Blockchain · Web3</span>
+                            <h3>XELS Blockchain Wallet</h3>
+                            <p>A blockchain-based wallet desktop app for ERC-20 token transactions in WPF, plus NFT development on ERC-721 with Solidity and Node.js.</p>
+                            <ul class="chips small"><li>C#</li><li>WPF</li><li>Angular</li><li>Node.js</li><li>Solidity</li></ul>
+                        </div>
+                        <div class="gallery">
+                            <button class="shot shot-main" data-caption="XELS — Wallet"><img src="img/xels-web-block-chain-01.jpg" alt="XELS wallet screen" loading="lazy"></button>
+                            <button class="shot" data-caption="XELS — Transactions"><img src="img/xels-web-block-chain-02.jpg" alt="XELS transactions screen" loading="lazy"></button>
+                            <button class="shot" data-caption="XELS — Transaction menu"><img src="img/xels-web-block-chain-03.jpg" alt="XELS transaction menu" loading="lazy"></button>
+                        </div>
+                    </article>
+
+                    <article class="project reveal">
+                        <div class="project-info">
+                            <span class="project-tag mono">Merchandising ERP</span>
+                            <h3>Lifestyle Sales ERP</h3>
+                            <p>Merchandising ERP from raw material to production — material management for requisition, purchase and utilization, built on clean architecture.</p>
+                            <ul class="chips small"><li>ASP.NET</li><li>Razor</li><li>jQuery</li><li>Oracle</li></ul>
+                        </div>
+                        <div class="gallery">
+                            <button class="shot shot-main" data-caption="ERP — Sales management home"><img src="img/SaRaLifeStyleERP1.PNG" alt="ERP sales management home" loading="lazy"></button>
+                            <button class="shot" data-caption="ERP — Sales history"><img src="img/SaRaLifeStyleERP2.PNG" alt="ERP sales history" loading="lazy"></button>
+                            <button class="shot" data-caption="ERP — Point of Sales"><img src="img/SaRaLifeStyleERP3.PNG" alt="ERP point of sales" loading="lazy"></button>
+                        </div>
+                    </article>
+
+                    <article class="project reveal">
+                        <div class="project-info">
+                            <span class="project-tag mono">Point of Sales</span>
+                            <h3>Cloud POS &amp; Touch POS</h3>
+                            <p>A complete POS covering sales, purchasing, receiving and delivery management — available as a cloud web app and a touch-first terminal.</p>
+                            <ul class="chips small"><li>C#</li><li>.NET Core</li><li>Web API</li><li>Angular</li></ul>
+                        </div>
+                        <div class="gallery four">
+                            <button class="shot shot-main" data-caption="Cloud POS — Home"><img src="img/CloudPosHome.PNG" alt="Cloud POS home" loading="lazy"></button>
+                            <button class="shot" data-caption="Cloud POS — Shop"><img src="img/CloudPosShop.PNG" alt="Cloud POS shop" loading="lazy"></button>
+                            <button class="shot" data-caption="Cloud POS — Web"><img src="img/CloudPosWeb.PNG" alt="Cloud POS web" loading="lazy"></button>
+                            <button class="shot" data-caption="Touch POS"><img src="img/TPOS.PNG" alt="Touch POS" loading="lazy"></button>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Live projects -->
+                <div class="live reveal">
+                    <h3 class="live-title mono">// Live &amp; side projects</h3>
+                    <ul class="live-list">
+                        <li><a href="http://shopping-cart-by-towsif-patwary.runasp.net" target="_blank" rel="noopener"><span>Shopping Cart</span><small>.NET 8 API · Clean Architecture</small><i>↗</i></a></li>
+                        <li><a href="https://towsif-reactjs-ecommerce-website.netlify.app" target="_blank" rel="noopener"><span>E-commerce Website</span><small>React</small><i>↗</i></a></li>
+                        <li><a href="https://towsif-reactjs-search-image.netlify.app" target="_blank" rel="noopener"><span>Image Search</span><small>React · REST API</small><i>↗</i></a></li>
+                        <li><a href="https://towsif-reactjs-todo-list.netlify.app" target="_blank" rel="noopener"><span>Todo App</span><small>React</small><i>↗</i></a></li>
+                        <li><a href="https://www.youtube.com/watch?v=dQ_YTp080cI" target="_blank" rel="noopener"><span>Point of Sales System</span><small>ASP.NET MVC · Video</small><i>↗</i></a></li>
+                        <li><a href="https://www.youtube.com/watch?v=iF5xmQ15ZQU" target="_blank" rel="noopener"><span>Ice Cream Shop</span><small>Design · Video</small><i>↗</i></a></li>
                     </ul>
                 </div>
-            </nav>
-        </div>
-        <!-- about --->
-        <div class="about container" id="about">
-            <div class="row about-table">
-                <div class="text-center aboutSection profile-img-div">
-                    <br> <br> 
-                    <img src="img/Towsif-Patwary.jpg" class="profile-img">
-                </div>
-                <div class="aboutSection">
-                    <h3>Who  I Am?</h3>
-                    <p style="text-align: justify;">
-                        Working in software development since 2018.
-                        Successfully doing back-end programming utilizing c#, asp.net core, asp.net mvc, ms sql server, Entity framework etc.
-                        and front-end with Angular, javascript, jQuery etc. Designed and developed many static and
-                        dynamic desktop and web apps. 
-                        Proven ability to design, develop, and maintain enterprise-level software solutions, including Point of Sales (POS) systems, 
-                        ERP platforms, and supply chain management tools. Skilled in high-level architecture, design principles, asynchronous programming, 
-                        API integration, complex SQL queries, and caching strategies to optimize performance and scalability.
-                    </p>
-                    <p style="text-align: justify;">
-                        Goal is to build up an excellent career and to work in a dynamic environment
-                        to provide a strong leadership
-                        role where honestly dedication and teamwork are highly valued and excellence
-                        in performance is sought.
-                    </p> <br />
-                    <h5 style="text-align:left;">Summery Qualifications:</h5>
-                    <p style="text-align:left;">
-                        <b>Languages:</b> C#, JavaScript, TypeScript, SQL etc. <br>
-                        <b>Frameworks/Technologies:</b> Asp.Net Framework, Asp.Net Core, Asp.Net 8, Web API, Entity Framework, Angular, ASP.NET <br>
-                        <b>Databases:</b> SQL Server, SQL Queries, Stored Procedures, MongoDB, Oracle <br>
-                        <b>AI & Automation:</b> Claude AI, Agentic Automation, Playwright etc. <br>
-                        <b>Cloud & DevOps:</b> Microsoft Azure (hosting, monitoring, event tracking), Azure DevOps, Docker, logging & observability, SVN / Git <br>
-                        <b>Development Tools:</b> Visual Studio, VS Code, Git, SVN, MS Sql server, Postman, Crystal report etc. <br>
-                        <b>Design Patterns:</b> Mediator, MVC, Repository, Dependency Injection etc. <br>
-                        <b>Other Skills:</b> RESTful APIs, Business Logic, Software Architecture, Asynchronous programming, Caching, Message Queue, Microservice, Docker, 
-                        Kubernetes, JavaScript, jQuery, Angular, Reactjs etc. <br>
-                        <b>Methodologies:</b> Agile (Scrum), Domain-Driven Design (DDD), Test-Driven Development (TDD)
-                    </p>
-                    <!--<div class="skill-bar">
-                        <h3>Summery Qualifications</h3>
-                        <p>C Sharp, Asp.net mvc, JavaScript, ReactJS, Angular, Html, Css, Bootstrap,
-                        Crystal Report, Tortoise svn, Git</p>
-                    </div>-->
-                </div>
             </div>
-        </div>
-        <!-- social icon -->
-        <div class="social-icons">
-            <ul>
-                <li><a id="anchorId" href="https://www.linkedin.com/in/towsif-patwary" target="_blank"><i class="fa fa-linkedin"></i> </a></li>
-                <li><a id="anchorId" href="https://stackoverflow.com/users/11390521/towsif-patwary" target="_blank"><i class="fa fa-stack-overflow"></i> </a></li>
-                <li><a id="anchorId" href="#contact"><i class="fa fa-github"></i> </a></li>
-                <li><a id="anchorId" href="#contact"><i class="fa fa-facebook"></i> </a></li>
-                <li><a id="anchorId" href="https://twitter.com/PatwaryTowsif" target="_blank"><i class="fa fa-twitter"></i> </a></li>
-            </ul>
-        </div>
+        </section>
 
+        <!-- CONTACT -->
+        <section class="contact" id="contact">
+            <div class="wrap">
+                <p class="eyebrow reveal"><span class="dot"></span> Have a project in mind?</p>
+                <h2 class="contact-title reveal">Let's build something<br><em>that lasts.</em></h2>
+                <a class="contact-mail reveal" href="mailto:towsifict@gmail.com">towsifict@gmail.com <span>→</span></a>
 
-        <!-- resume -->
-        <div class="resume" id="resume">
-            <div class="container">
-                <div class="row resume-table">
-                    <div class="resumeSection">
-                        <h3 class="text-center">Professional Experience</h3>
-                        <ul class="timeline">
-                            <li>
-                                <h4>2018 to Continuing - <span>Software Development</span></h4>
-                                <p style="text-align: justify; padding: 20px;">
-                                    # Enterprise Resource Planning (ERP): Developed and maintained ERP systems to streamline inventory management, distribution, and supply chain operations. Applied complex SQL queries, designed APIs, and utilized asynchronous programming for efficient data handling.
-                                    <br># Point of Sales (POS): Designed and implemented a robust POS system using Asp.net framework 4.5, Asp.net7, Asp.net8, Web API, SQL Server, and Angular. Integrated Crystal Reports for advanced reporting features and improved software efficiency by optimizing backend architecture.
-                                    <br># Web-Based Applications: Developed web applications for various business processes, applying MVC patterns and leveraging Web APIs for seamless client-server interaction.
-                                    <br># Architecture & Design: Followed SOLID principles and design patterns, ensuring maintainability, scalability, and robust business logic. Utilized caching and optimization techniques to boost software performance.
-                                    <br># API Development: Created secure, scalable RESTful APIs to support front-end applications and integrated third-party services.
-                                    <br># Database Management: Designed and optimized complex SQL queries, stored procedures, and database schema for high-performance applications.
-                                    <br><br>
-                                    <b>Company</b> - Synergy Interface Ltd.  <br>
-                                    <b>Location</b> - Dhaka, Bangladesh <br>
-                                </p>
-                            </li>
-                        </ul>
+                <div class="contact-row reveal">
+                    <a class="contact-item" href="tel:+8801315054551">
+                        <span class="mono">Phone</span>
+                        +880 1315 054551
+                    </a>
+                    <div class="contact-item">
+                        <span class="mono">Location</span>
+                        Dhaka, Bangladesh
                     </div>
-
-                    <div class="resumeSection">
-                        <h3 class="text-center">Education</h3>
-                        <ul class="timeline">
-                            <li>
-                                <h4>2017 - <span>Academic Qualification</span> </h4>
-                                <p style="text-align: justify; padding: 20px;">
-                                    <b>Institution</b> - BRAC University - <span>Bachelor of Science in Computer Science and Engineering</span><br>
-                                    <b>Achievement</b> - Road sign detection and recognition using mean shift and fourier descriptors - <a href="http://hdl.handle.net/10361/8843" target="_blank" style="color: rgb(109, 1, 1);">click the link</a><br>
-                                    <b>Previous</b> - St. Joseph Higher Secondary School & College<br>
-                                </p>
-                            </li>
-                            <li>
-                                <h4>2017 - <span>Development Training</span></h4>
-                                <p style="text-align: justify; padding: 20px;">
-                                    Professional web application development in asp.net mvc, c#,
-                                    design, implementations. Took part in software development with projects. <br>
-                                    <b>Institution</b> - BASIS Institute of Technology & Management (BITM) <br>
-                                    <b>Location</b> - Dhaka, Bangladesh<br>
-                                </p>
-                            </li>
-                            <li>
-                                <h4>2021 - <span>Development Training</span></h4>
-                                <p style="text-align: justify; padding: 20px;">
-                                    Complete Blockchain development for Blockchain, Cryptocurrency 
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- services -->
-        <div class="services" id="services">
-            <div class="container">
-                <h1 class="text-center">My Offered Services</h1>
-                <div class="row services-table">
-
-                    <section id="services" style="text-align: justify;">
-                        <p>
-                            As a seasoned software developer specializing in <strong>.NET</strong> and <strong>Angular</strong>, 
-                            I offer comprehensive solutions for building dynamic, scalable, and high-performance web and desktop 
-                            applications. With years of experience in developing enterprise-level software, I am equipped to deliver 
-                            robust and efficient systems tailored to your business needs. Below are the services I provide:
-                        </p>
-                        
-                        <h5>Full-Stack Web Application Development</h5>
-                        <ul>
-                            <li>End-to-end development of web applications using <strong>.NET</strong> (Core, .NET 8) on the backend and <strong>Angular</strong> (Angular 16) for the front-end.</li>
-                            <li>Integration of secure and scalable <strong>RESTful APIs</strong> to ensure seamless client-server communication.</li>
-                            <li><strong>Responsive UI/UX design</strong> using Angular’s component-based architecture to deliver user-friendly and mobile-first applications.</li>
-                        </ul>
-                        
-                        <h5>Enterprise Resource Planning (ERP) Solutions</h5>
-                        <ul>
-                            <li>Design and implementation of ERP systems to manage inventory, supply chain, and distribution efficiently.</li>
-                            <li>Building customizable and modular ERP platforms that integrate various business processes into a single system.</li>
-                            <li>Expertise in using <strong>SQL Server</strong> to manage complex data structures, optimize performance, and support enterprise-level reporting.</li>
-                        </ul>
-                        
-                        <h5>Point of Sales (POS) System Development</h5>
-                        <ul>
-                            <li>Development of custom <strong>POS systems</strong> with modules for sales, purchasing, receiving, and delivery management.</li>
-                            <li>Integration with <strong>Crystal Reports</strong> and other reporting tools for generating real-time financial, inventory, and operational reports.</li>
-                            <li>Ensuring fast and secure transaction processing through advanced database handling and API integration.</li>
-                        </ul>
-                        
-                        <h5>API Development & Integration</h5>
-                        <ul>
-                            <li>Building <strong>RESTful APIs</strong> to support client-side applications and facilitate communication with third-party services.</li>
-                            <li>Secure API authentication, data validation, and high-performance API handling using <strong>.NET</strong> technologies.</li>
-                            <li>Connecting and integrating your existing systems with external services like payment gateways, CRMs, and more.</li>
-                        </ul>
-                        
-                        <h5>Custom Desktop Application Development</h5>
-                        <ul>
-                            <li>Creation of feature-rich <strong>desktop applications</strong> using <strong>C# and .NET Framework</strong>.</li>
-                            <li>Designing solutions for complex business processes with seamless database integration, report generation, and user management.</li>
-                        </ul>
-                        
-                        <h5>Database Design & Optimization</h5>
-                        <ul>
-                            <li>Expertise in <strong>SQL Server</strong> for creating complex database schemas, writing optimized queries, and designing stored procedures.</li>
-                            <li>Improving data performance with <strong>caching</strong>, indexing, and efficient data access strategies using <strong>Entity Framework</strong>.</li>
-                        </ul>
-                        
-                        <h5>Maintenance & Modernization of Legacy Systems</h5>
-                        <ul>
-                            <li>Modernizing your existing <strong>.NET</strong> or legacy systems to improve performance, security, and scalability with the latest technologies like <strong>.NET 8</strong>.</li>
-                            <li>Migrating desktop applications to web-based systems or improving existing applications with modern <strong>Angular</strong> frameworks.</li>
-                        </ul>
-                        
-                        <h5>Consulting & Code Review</h5>
-                        <ul>
-                            <li>Offering consulting services to optimize your software architecture and design patterns.</li>
-                            <li>Code review services to ensure your projects are built with best practices like <strong>SOLID principles</strong>, clean coding, and optimized performance.</li>
-                        </ul>
-                    </section>
-                            
-
+                    <a class="contact-item" href="file/MohammadTowsifPatwary-Resume.pdf" download="Resume.pdf">
+                        <span class="mono">Resume</span>
+                        Download PDF ↓
+                    </a>
                 </div>
 
-            </div>
-        </div>
-
-
-
-         <!-- projects -->
-         <div class="services" id="services" style="padding-top: 0; padding-bottom: 0;">
-            <div class="container">
-                <h1 class="text-center">Projects</h1>
-
-                <section id="services" style="text-align: justify;">
-                    <p></p>
-                    
-                   
-                    <h4>ERP Inventory & Supply Chain Management</h4>
-                    <ul>
-                        <li>Developed a large-scale ERP system focused on inventory, distribution, and supply chain processes.</li>
-                        <li>Applied high-level coding logic, asynchronous tasks, and complex SQL queries to manage business operations.</li>
-                    </ul>
-                    
-                    <h4>Blockchain technology</h4>
-                    <ul>
-                        <li>Developed blockchain based wallet desktop app - ERC20 token transaction using WPF.</li>
-                        <li>Developing Non Fungible Token on ERC721 using solidity, nodejs</li>
-                        <li>C#, WPF, angular, nodejs, solidity etc</li>
-                    </ul>
-
-                    <h4>Merchandising ERP software development</h4>
-                    <ul>
-                        <li>ERP is focused on merchandising, creating row material to production.</li>
-                        <li>Material management module- requisition, purchase, utilizations etc.</li>
-                        <li>Clean architecture, Asp.net Framework, razor, jQuery, Oracle etc.</li>
-                    </ul>
-
-                    <h4>Point of Sales (POS) System</h4>
-                    <ul>
-                        <li>Designed and developed a complete POS system using <strong>C#, .NET Framework, .NET Core, WebAPI and Angular etc.</strong>.</li>
-                        <li>Implemented features such as sales, purchasing, receiving, delivery management etc.</li>
-                    </ul>
-
-
-                </section>
-
-            </div>
-        </div>
-
-
-        <div class="services" id="services">
-            <div class="container">
-                <h1 class="text-center">My Works</h1><br>
-
-                <div class="image-row">
-                    <div class="image-container">
-                        <img src="img/Roots1.PNG" alt="Roots1">
-                        <div class="overlay">Inventory ERP (Sales)</div>
-                    </div>
-                    <div class="image-container">
-                        <img src="img/Roots2.PNG" alt="Roots2">
-                        <div class="overlay">Inventory ERP (Invoice)</div>
-                    </div>
-                    <div class="image-container">
-                        <img src="img/Roots3.PNG" alt="Roots3">
-                        <div class="overlay">Inventory ERP (Product)</div>
-                    </div>
-                </div>
-
-                <div class="image-row">
-                    <div class="image-container">
-                        <img src="img/xels-web-block-chain-01.jpg" alt="xels1">
-                        <div class="overlay">XELS BlockChain Wallet</div>
-                    </div>
-                    <div class="image-container">
-                        <img src="img/xels-web-block-chain-02.jpg" alt="xels2">
-                        <div class="overlay">XELS BlockChain Transactions</div>
-                    </div>
-                    <div class="image-container">
-                        <img src="img/xels-web-block-chain-03.jpg" alt="xels3">
-                        <div class="overlay">XELS BlockChain Transaction Menu</div>
-                    </div>
-                </div>
-
-                <div class="image-row">
-                    <div class="image-container">
-                        <img src="img/SaRaLifeStyleERP1.PNG" alt="SaRaLifeStyleERP1">
-                        <div class="overlay">ERP (Sales Management System) Home</div>
-                    </div>
-                    <div class="image-container">
-                        <img src="img/SaRaLifeStyleERP2.PNG" alt="SaRaLifeStyleERP2">
-                        <div class="overlay">ERP (Sales History)</div>
-                    </div>
-                    <div class="image-container">
-                        <img src="img/SaRaLifeStyleERP3.PNG" alt="SaRaLifeStyleERP3">
-                        <div class="overlay">ERP (Point of Sales)</div>
-                    </div>
-                </div>
-
-                <div class="image-row">
-                    <div class="image-container">
-                        <img src="img/CloudPosHome.PNG" alt="CloudPosHome">
-                        <div class="overlay">Cloud POS Home</div>
-                    </div>
-                    <div class="image-container">
-                        <img src="img/CloudPosShop.PNG" alt="CloudPosShop">
-                        <div class="overlay">Cloud POS Shop</div>
-                    </div>
-                    <div class="image-container">
-                        <img src="img/CloudPosWeb.PNG" alt="CloudPosWeb">
-                        <div class="overlay">Cloud POS Web</div>
-                    </div>
-                    <div class="image-container">
-                        <img src="img/TPOS.PNG" alt="TPOS">
-                        <div class="overlay">Touch POS</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- contact-->
-        <div class="contact" id="contact">
-            <div class="container text-center">
-                <h1>Contact Me</h1>
-                <p class="text-center">Share your thoughts </p>
-
-                <div class="row contact-table">
-                    <div class="contactInfo">
-                        <i class="fa fa-internet-explorer"></i>
-                        <a href="http://shopping-cart-by-towsif-patwary.runasp.net" target="_blank" style="color: white;"><p class="contactp">Shopping cart - Dotnet 8 API, clean architechture</p></a>
-                        <a href="https://towsif-reactjs-ecommerce-website.netlify.app" target="_blank" style="color: white;"><p class="contactp">My E-commerce project - ReactJs</p></a>
-                        <a href="https://towsif-reactjs-search-image.netlify.app" target="_blank" style="color: white;"><p class="contactp">My API project - ReactJs</p></a>
-                        <a href="https://towsif-reactjs-todo-list.netlify.app" target="_blank" style="color: white;"><p class="contactp">My Todo - ReactJs</p></a>
-                        <a href="https://www.youtube.com/watch?v=iF5xmQ15ZQU" target="_blank" style="color: white;"><p class="contactp">Ice Cream shop - design</p></a>
-                        <a href="https://www.youtube.com/watch?v=dQ_YTp080cI" target="_blank" style="color: white;"><p class="contactp">Point of Sales System - Asp.net Mvc</p></a>
-                    </div>
-                    <div class="contactInfo" style="padding-left: 20px ;">
-                        <i class="fa fa-phone"></i>
-                        <p class="contactp">+8801315054551</p>
-                    </div>
-                    <div class="contactInfo">
-                        <i class="fa fa-envelope"></i>
-                        <p class="contactp">towsifict@gmail.com</p>
-                    </div>
-                </div>
-
-                <a href="file/MohammadTowsifPatwary-Resume.pdf" download="Resume.pdf" class="btn btn-primary">
-                    <i class="fa fa-download"></i> Resume
-                </a>
-                <!-- <button type="button" class="btn btn-primary"><i class="fa fa-download"></i>Resume </button>
-                <button type="button" class="btn btn-primary"><i class="fa fa-rocket"></i>Hire Me </button> -->
-
+                <ul class="socials reveal">
+                    <li><a href="https://www.linkedin.com/in/towsif-patwary" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.5c0-1.3-.02-3-1.83-3-1.83 0-2.1 1.43-2.1 2.9V21H9z"/></svg>
+                        LinkedIn</a></li>
+                    <li><a href="https://stackoverflow.com/users/11390521/towsif-patwary" target="_blank" rel="noopener" aria-label="Stack Overflow">
+                        <svg viewBox="0 0 24 24"><path d="M5 15v5h13v-5M8 17h7M8.3 13.6l6.9 1.4M9.4 9.6l6.4 3M11.6 5.9l5.5 4.6M15 3l4 5.6"/></svg>
+                        Stack Overflow</a></li>
+                    <li><a href="https://twitter.com/PatwaryTowsif" target="_blank" rel="noopener" aria-label="X / Twitter">
+                        <svg viewBox="0 0 24 24"><path d="M4 4l16 16M20 4L4 20" /></svg>
+                        X / Twitter</a></li>
+                </ul>
             </div>
 
-            <div class="footer text-center">
-                <p> made with <i class="fa fa-heart-o"></i> by Towsif </p>
-            </div>
+            <footer class="footer">
+                <div class="wrap footer-inner">
+                    <span>© <span id="year">2026</span> Mohammad Towsif Patwary</span>
+                    <span class="mono">Crafted in Dhaka</span>
+                    <a href="#top" class="to-top">Back to top ↑</a>
+                </div>
+            </footer>
+        </section>
+    </main>
 
-        </div>
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+        <button class="lb-close" aria-label="Close">×</button>
+        <button class="lb-nav lb-prev" aria-label="Previous">‹</button>
+        <figure>
+            <img id="lbImg" src="" alt="">
+            <figcaption id="lbCap"></figcaption>
+        </figure>
+        <button class="lb-nav lb-next" aria-label="Next">›</button>
+    </div>
 
-
-    </section>
-
-
-    <script src="smooth-scroll.js"></script>
     <script>
-        var scroll = new SmoothScroll('a[href*="#"]');
+    (function () {
+        // Year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Nav: shrink on scroll + mobile menu
+        var nav = document.getElementById('nav');
+        var toggle = document.getElementById('navToggle');
+        var links = document.getElementById('navLinks');
+        window.addEventListener('scroll', function () {
+            nav.classList.toggle('scrolled', window.scrollY > 30);
+        }, { passive: true });
+        toggle.addEventListener('click', function () {
+            var open = nav.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', open);
+        });
+        links.querySelectorAll('a').forEach(function (a) {
+            a.addEventListener('click', function () { nav.classList.remove('open'); });
+        });
+
+        // Active section highlight
+        var sections = ['about', 'experience', 'services', 'work', 'contact'].map(function (id) { return document.getElementById(id); });
+        var spy = new IntersectionObserver(function (entries) {
+            entries.forEach(function (e) {
+                if (e.isIntersecting) {
+                    links.querySelectorAll('a').forEach(function (a) {
+                        a.classList.toggle('active', a.getAttribute('href') === '#' + e.target.id);
+                    });
+                }
+            });
+        }, { rootMargin: '-45% 0px -50% 0px' });
+        sections.forEach(function (s) { spy.observe(s); });
+
+        // Reveal on scroll
+        var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (e) {
+                if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+            });
+        }, { threshold: 0.12 });
+        document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+
+        // Count-up stats
+        var counted = false;
+        var statsEl = document.querySelector('.stats');
+        new IntersectionObserver(function (entries, obs) {
+            if (!entries[0].isIntersecting || counted) return;
+            counted = true; obs.disconnect();
+            document.querySelectorAll('[data-count]').forEach(function (el) {
+                var target = +el.dataset.count, start = performance.now();
+                (function tick(t) {
+                    var p = Math.min((t - start) / 1200, 1);
+                    el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3)));
+                    if (p < 1) requestAnimationFrame(tick);
+                })(start);
+            });
+        }, { threshold: 0.4 }).observe(statsEl);
+
+        // Lightbox
+        var shots = Array.prototype.slice.call(document.querySelectorAll('.shot'));
+        var lb = document.getElementById('lightbox'), lbImg = document.getElementById('lbImg'), lbCap = document.getElementById('lbCap');
+        var idx = 0;
+        function show(i) {
+            idx = (i + shots.length) % shots.length;
+            var img = shots[idx].querySelector('img');
+            lbImg.src = img.src; lbImg.alt = img.alt;
+            lbCap.textContent = shots[idx].dataset.caption || '';
+        }
+        function open(i) { show(i); lb.classList.add('open'); lb.setAttribute('aria-hidden', 'false'); document.body.style.overflow = 'hidden'; }
+        function close() { lb.classList.remove('open'); lb.setAttribute('aria-hidden', 'true'); document.body.style.overflow = ''; }
+        shots.forEach(function (s, i) { s.addEventListener('click', function () { open(i); }); });
+        lb.querySelector('.lb-close').addEventListener('click', close);
+        lb.querySelector('.lb-prev').addEventListener('click', function (e) { e.stopPropagation(); show(idx - 1); });
+        lb.querySelector('.lb-next').addEventListener('click', function (e) { e.stopPropagation(); show(idx + 1); });
+        lb.addEventListener('click', function (e) { if (e.target === lb) close(); });
+        document.addEventListener('keydown', function (e) {
+            if (!lb.classList.contains('open')) return;
+            if (e.key === 'Escape') close();
+            if (e.key === 'ArrowLeft') show(idx - 1);
+            if (e.key === 'ArrowRight') show(idx + 1);
+        });
+
+        // Cursor glow (desktop only)
+        var glow = document.querySelector('.glow');
+        if (window.matchMedia('(pointer:fine)').matches) {
+            window.addEventListener('mousemove', function (e) {
+                glow.style.transform = 'translate(' + (e.clientX - 300) + 'px,' + (e.clientY - 300) + 'px)';
+            }, { passive: true });
+        } else { glow.style.display = 'none'; }
+    })();
     </script>
 </body>
 </html>
