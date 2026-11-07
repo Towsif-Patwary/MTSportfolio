@@ -216,6 +216,7 @@ main, .nav { position: relative; z-index: 1; }
 .tl-points li { position: relative; padding-left: 22px; color: #c4c3be; }
 .tl-points li::before { content: ""; position: absolute; left: 0; top: .7em; width: 8px; height: 1px; background: var(--accent); }
 .tl-points b { color: var(--text); font-weight: 600; }
+.tl-body .chips { margin-top: 20px; }
 .link { color: var(--text); border-bottom: 1px solid var(--accent); transition: color .2s; }
 .link:hover { color: var(--accent); }
 
